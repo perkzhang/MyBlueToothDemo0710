@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     //1、创建ServiceConnection匿名类
     private ServiceConnection connection = new ServiceConnection() {
         //重写onServiceConnected()和onServiceDisconnected();
-        //这两个方法飞别再活动与服务“成功绑定”和“解绑定”的时候贝蒂哦啊用
+        //这两个方法分别在活动与服务“成功绑定”和“解绑定”的时候被调用
         @Override
         public void onServiceConnected(ComponentName componentName, IBinder iBinder) {
             downloadBinder = (MyService.DownloadBinder) iBinder;
@@ -115,14 +115,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
  *                  (bs只可以执行一次,多次触发后不会像ss一样继续相应)
  *                  (bs之后可以ss触发就只执行startCommand()，无论触发多少次)
  *            unbindService(ServiceConnection conn)销毁Service：onDestroy();此时服务消失
- *  3、如果ss和bs同时执行，要同时stopService()和unbindService()同时执行以后才可以执行onDestroy()销毁Servi
- *
- *  前台服务：与普通服务相比，前台服务不会由于系统内存不足而被强制回收掉，会一直宝轮状态，会在系统状态栏显示一个图标，好比音乐播放器等等
- *
+ *  3、如果ss和bs同时执行，要同时stopService()和unbindService()同时执行以后才可以执行onDestroy()销毁Service
  */
-
-
-
-
-
 
