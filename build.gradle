@@ -1,9 +1,14 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-
+//这是gradle基础配置文件
 buildscript {
     repositories {
         jcenter()
     }
+    /*这个就是依赖 gradle 插件的代码，后面的版本号代表的是 android gradle plugin 的版本，
+    而不是 Gradle 的版本，这个是 Google 定的，跟 Gradle 官方没关系
+
+    默认新建一个项目，点击 AS 上的运行，系统默认会直接安装 Gradle（这个不是真正的Gradle，而是 Gradle Wrapper（Gradle的包装）， ）
+    */
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.2'
 

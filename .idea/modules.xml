@@ -4,7 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyBlueToothDemo0710.iml" filepath="$PROJECT_DIR$/MyBlueToothDemo0710.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmenttest/fragmenttest.iml" filepath="$PROJECT_DIR$/fragmenttest/fragmenttest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intent_transfer_object/intent_transfer_object.iml" filepath="$PROJECT_DIR$/intent_transfer_object/intent_transfer_object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
       <module fileurl="file://$PROJECT_DIR$/myservice/myservice.iml" filepath="$PROJECT_DIR$/myservice/myservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nohttpdemo/nohttpdemo.iml" filepath="$PROJECT_DIR$/nohttpdemo/nohttpdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tool_bar/tool_bar.iml" filepath="$PROJECT_DIR$/tool_bar/tool_bar.iml" />
     </modules>
   </component>
 </project>

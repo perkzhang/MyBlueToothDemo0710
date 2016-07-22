@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--因为此范例只使用 Toolbar，所以我们要将让原本的 ActionBar 隐藏起来-->
+        <!--<item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>-->
+
+        <!--colorPrimary标题栏-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--colorPrimaryDark（状态栏底色）-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <!--navigationBarColor（导航栏底色）"仅能在 API v21 也就是 Android 5 以后的版本中使用"-->
+        <item name="android:navigationBarColor">@color/colorAccent</item>
+    </style>
+
+</resources>
