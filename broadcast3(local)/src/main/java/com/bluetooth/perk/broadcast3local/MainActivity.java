@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
         intentFilter = new IntentFilter();
         intentFilter.addAction("com.example.broadcasttest.LOCAL_BROADCAST");
         localReceiver = new LocalReceiver();
