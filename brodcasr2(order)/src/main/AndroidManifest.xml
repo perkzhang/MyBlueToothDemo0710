@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bluetooth.perk.myservice">
+    package="com.bluetooth.perk.brodcasr2order">
 
     <application
         android:allowBackup="true"
@@ -15,7 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".MyService"></service>
+
+        <receiver android:name=".AnotherBroadcastReceiver">
+            <intent-filter android:priority="100">
+                <action android:name="com.bluetooth.perk.myapplication.broadcast.MyBroadcastReceiver" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

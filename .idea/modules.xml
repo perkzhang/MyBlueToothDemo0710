@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyBlueToothDemo0710.iml" filepath="$PROJECT_DIR$/MyBlueToothDemo0710.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcast3(local)/broadcast3(local).iml" filepath="$PROJECT_DIR$/broadcast3(local)/broadcast3(local).iml" />
+      <module fileurl="file://$PROJECT_DIR$/brodcasr2(order)/brodcasr2(order).iml" filepath="$PROJECT_DIR$/brodcasr2(order)/brodcasr2(order).iml" />
+      <module fileurl="file://$PROJECT_DIR$/brodcast/myapplication.iml" filepath="$PROJECT_DIR$/brodcast/myapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragmenttest/fragmenttest.iml" filepath="$PROJECT_DIR$/fragmenttest/fragmenttest.iml" />
       <module fileurl="file://$PROJECT_DIR$/intent_transfer_object/intent_transfer_object.iml" filepath="$PROJECT_DIR$/intent_transfer_object/intent_transfer_object.iml" />
       <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />

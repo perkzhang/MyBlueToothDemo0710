@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this,"设备支持BLE特性",Toast.LENGTH_SHORT).show();
             }
         }
+
         ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.CAMERA,
                 Manifest.permission.WRITE_EXTERNAL_STORAGE},REQUEST_AUTHORITY);
         //检查Manifest中权限是否有被允许（申请的权限必须在Manifest中提前注册才行）
@@ -81,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
         //当判断了蓝牙适配器对象已经获取
         if (mBluetoothAdapter != null){
             if (!mBluetoothAdapter.isEnabled()){//判断蓝牙是否打开
+
                 Intent enableIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);//Settings.ACTION_BLUETOOTH_SETTINGS
                 //这个Intent action请求一个Dialog
                 startActivityForResult(enableIntent,REQUEST_ENABLE_BT);
