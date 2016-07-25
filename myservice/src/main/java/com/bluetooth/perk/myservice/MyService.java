@@ -1,7 +1,5 @@
 package com.bluetooth.perk.myservice;
 
-import android.app.Notification;
-import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Intent;
 import android.os.Binder;
@@ -17,10 +15,10 @@ import android.util.Log;
 * 服务中的代码都是默认运行在主线程当中的,所以处理耗时操作的时候就必须开启线程
 * 如果想在执行完逻辑之后就自动销毁服务，需要手动销毁服务stopSelf()
 * 为了可以简单地创建一个异步的、会自动停止的服务，Android 专门提供了一个
-  ntentService 类
+  IntentService 类
 * */
 public class MyService extends Service {
-    private DownloadBinder mDownloadBinder = new DownloadBinder();
+    private DownloadBinder mBinder = new DownloadBinder();
 
 
     @Nullable
@@ -30,7 +28,7 @@ public class MyService extends Service {
         //在 MyService 中创建DownloadBinder 的实例，然后在 onBind()方法里返回了这个实例
         //当一个活动和服务绑定了之后，就可以调用该服务里的 Binder提供的方法
         Log.d("MyService", "onBind executed");
-        return mDownloadBinder;
+        return mBinder;
 
     }
 
@@ -39,14 +37,6 @@ public class MyService extends Service {
         //服务被“创建”的时候调用
         super.onCreate();
         Log.d("MyService", "onCreate executed");
-
-        Notification.Builder builder = new Notification.Builder(this);
-        builder.setSmallIcon(R.mipmap.ic_launcher);
-        builder.setContentTitle("这是标题");
-        builder.setContentText("这是内容");
-        Intent notificationIntent = new Intent(this,MainActivity.class);
-        PendingIntent pendingIntent = PendingIntent.getActivity(this,0,notificationIntent,0);
-
 
     }
 

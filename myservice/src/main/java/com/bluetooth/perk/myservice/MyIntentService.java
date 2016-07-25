@@ -4,7 +4,7 @@ import android.app.IntentService;
 import android.content.Intent;
 
 /**
- * Created by perk on 2016/7/22.
+ * Created by perkzhang on 2016/7/13.
  */
 public class MyIntentService extends IntentService {
     public MyIntentService(String name) {

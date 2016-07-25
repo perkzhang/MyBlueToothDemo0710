@@ -10,32 +10,16 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/broadcast3(local)" />
-            <option value="$PROJECT_DIR$/brodcasr2(order)" />
-            <option value="$PROJECT_DIR$/brodcast1(normal)" />
-            <option value="$PROJECT_DIR$/fragmenttest" />
-            <option value="$PROJECT_DIR$/intent_transfer_object" />
-            <option value="$PROJECT_DIR$/listview" />
             <option value="$PROJECT_DIR$/myservice" />
-            <option value="$PROJECT_DIR$/nohttpdemo" />
-            <option value="$PROJECT_DIR$/test" />
-            <option value="$PROJECT_DIR$/tool_bar" />
+            <option value="$PROJECT_DIR$/nohttp" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/broadcast3(local)" />
-            <option value="$PROJECT_DIR$/brodcasr2(order)" />
-            <option value="$PROJECT_DIR$/brodcast1(normal)" />
-            <option value="$PROJECT_DIR$/fragmenttest" />
-            <option value="$PROJECT_DIR$/intent_transfer_object" />
-            <option value="$PROJECT_DIR$/listview" />
             <option value="$PROJECT_DIR$/myservice" />
-            <option value="$PROJECT_DIR$/nohttpdemo" />
-            <option value="$PROJECT_DIR$/test" />
-            <option value="$PROJECT_DIR$/tool_bar" />
+            <option value="$PROJECT_DIR$/nohttp" />
           </set>
         </option>
       </GradleProjectSettings>
