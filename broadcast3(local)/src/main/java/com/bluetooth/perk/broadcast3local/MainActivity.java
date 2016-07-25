@@ -36,11 +36,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //2、添加广播筛选条件
+
         intentFilter = new IntentFilter();
         intentFilter.addAction("com.example.broadcasttest.LOCAL_BROADCAST");
         localReceiver = new LocalReceiver();
-        //3、动态注册广播
         localBroadcastManager.registerReceiver(localReceiver, intentFilter);
 
     }
@@ -52,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     class LocalReceiver extends BroadcastReceiver {
+
         @Override
         public void onReceive(Context context, Intent intent) {
             Toast.makeText(context, "received local broadcast",
