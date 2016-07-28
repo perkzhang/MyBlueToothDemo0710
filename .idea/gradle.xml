@@ -10,9 +10,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/ble" />
             <option value="$PROJECT_DIR$/broadcast3(local)" />
             <option value="$PROJECT_DIR$/brodcasr2(order)" />
             <option value="$PROJECT_DIR$/brodcast1(normal)" />
+            <option value="$PROJECT_DIR$/des" />
             <option value="$PROJECT_DIR$/fragmenttest" />
             <option value="$PROJECT_DIR$/intent_transfer_object" />
             <option value="$PROJECT_DIR$/listview" />
@@ -26,9 +28,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/ble" />
             <option value="$PROJECT_DIR$/broadcast3(local)" />
             <option value="$PROJECT_DIR$/brodcasr2(order)" />
             <option value="$PROJECT_DIR$/brodcast1(normal)" />
+            <option value="$PROJECT_DIR$/des" />
             <option value="$PROJECT_DIR$/fragmenttest" />
             <option value="$PROJECT_DIR$/intent_transfer_object" />
             <option value="$PROJECT_DIR$/listview" />
